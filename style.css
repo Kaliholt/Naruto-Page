@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.header {
+    background-color: orange;
+    height: 15vh;
+    border-bottom: 0.3rem solid;
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    padding: 0 2rem;
+    font-size: 1.6rem;
+}
+.header-nav__picture img {
+    width: 15rem;
+}
+.header-nav__ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 2rem;
+    width: 35vw;
+}
+.nav-ul__li a{
+    text-decoration: none;
+    color:white;
+    font-family: arial black;
+    padding: 3vh 2rem;
+    border-radius: 2rem ;
+}
+.nav-ul__li a:hover {
+    background-color: #002;
+}
+.main {
+    display: flex;
+    height: 70vh;
+}
+.main-aside {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 15vw;
+    background-color: rgba(255,165,0,0.6);
+    align-items: center;
+}
+.main-aside__picture img{
+    width: 15rem;
+    border-radius: 2rem;
+}
+.main-section {
+    position: relative;
+    padding: 3rem 0 0 26rem;
+    background-image: url(./images/ADLH.png);
+    width: 85vw;
+}
+.main-section__picture img {
+    height: 60vh;
+    border-radius: 5rem;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    height: 15vh;
+    border-top: 0.3rem solid;
+    font-size: 2rem;
+    padding: 0 10rem;
+}
